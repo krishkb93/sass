@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-2 {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-50 {
+  width: 50%;
+  padding: 12px;
+}
+
+.slider14 {
+  height: 350px;
+}
+.slider14 .map img {
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+}
+
+.slider15 {
+  height: 610px;
+}
+.slider15 .speacer {
+  text-align: center;
+  margin: auto;
+}
+.slider15 .speacer h2 {
+  font-family: "Montserrat";
+  color: #252525;
+  line-height: 1.5;
+  font-size: 2.142em;
+  padding-top: 70px;
+  font-weight: 900;
+}
+.slider15 .speacer p {
+  font-size: 1.142em;
+  line-height: 1.785em;
+  font-family: "Lato";
+  padding-top: 30px;
+}
+.slider15 .contact {
+  padding-top: 40px;
+}
+.slider15 .contact h5 {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #252525;
+  padding: 10px 0px 0px;
+}
+.slider15 .contact p {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #777777;
+  padding: 10px 0px 0px;
+}
+.slider15 .contact .c {
+  padding-top: 15px;
+}
+.slider15 .contact .b {
+  padding-top: 15px;
+}
+.slider15 .form .fe input {
+  color: #777;
+  border: 1px solid #eaeaea;
+  padding: 11px 19px;
+  line-height: inherit;
+  width: 100%;
+  background-color: #f7f7f7;
+  margin-bottom: 30px;
+  width: 318px;
+}
+.slider15 .form .fe .btn {
+  width: 318px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  background-color: #ffc925;
+  color: #fff;
+  padding: 1.285em 2.642em;
+  border-radius: 3px;
+  text-align: center;
+}
+.slider15 .massage {
+  height: 267px;
+}
+.slider15 .massage input {
+  color: #777;
+  border: 1px solid #eaeaea;
+  padding: 11px 19px;
+  background-color: #f7f7f7;
+  margin-bottom: 30px;
+  width: 318px;
+  height: 267px;
+}/*# sourceMappingURL=krish3.css.map */

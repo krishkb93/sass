@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-2 {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.slider12 {
+  height: 571px;
+}
+.slider12 .b {
+  padding-top: 70px;
+}
+.slider12 .b .normal {
+  height: 189px;
+  padding: 0px 15px;
+}
+.slider12 .b .normal h3 {
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: #252525;
+}
+.slider12 .b .normal p {
+  padding: 20px 0px 0px;
+}
+.slider12 .b .normal p a {
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+  transition: all 1s;
+}
+.slider12 .b .normal p a.wprt-button1:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: #fff;
+}
+.slider12 .b .normal p a.wprt-button2 {
+  background-color: #252525;
+  border-color: #252525;
+  color: #fff;
+}
+.slider12 .b .normal p a.wprt-button2:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .normal p a.wprt-button3 {
+  background-color: #888;
+  border-color: #888;
+  color: #fff;
+}
+.slider12 .b .normal p a.wprt-button3:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .normal p a.wprt-button4 {
+  background-color: #c7c7c7;
+  border-color: #c7c7c7;
+  color: #fff;
+}
+.slider12 .b .normal p a.wprt-button4:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .Outline {
+  height: 189px;
+  padding: 0px 15px;
+}
+.slider12 .b .Outline h3 {
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: #252525;
+}
+.slider12 .b .Outline p {
+  padding: 20px 0px 0px;
+}
+.slider12 .b .Outline p a {
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding: 10px;
+  letter-spacing: 2px;
+  border: 2px solid #ffc925;
+  color: #ffc925;
+  transition: all 1s;
+}
+.slider12 .b .Outline p a.wprt-button5:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .Outline p a.wprt-button6 {
+  border-color: #252525;
+  color: #252525;
+}
+.slider12 .b .Outline p a.wprt-button6:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .Outline p a.wprt-button7 {
+  border-color: #888;
+  color: #888;
+}
+.slider12 .b .Outline p a.wprt-button7:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .Outline p a.wprt-button8 {
+  border-color: #c7c7c7;
+  color: #c7c7c7;
+}
+.slider12 .b .Outline p a.wprt-button8:hover {
+  background-color: #ffc925;
+  border: 2px solid #ffc925;
+  color: #fff;
+}
+.slider12 .b .Sizes {
+  height: 189px;
+  padding: 0px 15px;
+}
+.slider12 .b .Sizes h3 {
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: #252525;
+}
+.slider12 .b .Sizes p {
+  padding: 20px 0px 0px;
+}
+.slider12 .b .Sizes p a {
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: #ffc925;
+  color: white;
+  transition: all 1s;
+}
+.slider12 .b .Sizes p a.wprt-button9:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: white;
+}
+.slider12 .b .Sizes p a.wprt-button10 {
+  padding: 15.8px 29.4px;
+}
+.slider12 .b .Sizes p a.wprt-button10:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: white;
+}
+.slider12 .b .Sizes p a.wprt-button11 {
+  padding: 20.8px 53.4px;
+}
+.slider12 .b .Sizes p a.wprt-button11:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: white;
+}
+.slider12 .b .Rounded {
+  height: 189px;
+  padding: 0px 15px;
+}
+.slider12 .b .Rounded h3 {
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: #252525;
+}
+.slider12 .b .Rounded p {
+  padding: 20px 0px 0px;
+}
+.slider12 .b .Rounded p a {
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: #ffc925;
+  color: white;
+  transition: all 1s;
+}
+.slider12 .b .Rounded p a.wprt-button12:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: white;
+}
+.slider12 .b .Rounded p a.wprt-button13 {
+  padding: 15.8px 29.4px;
+  border-radius: 5px;
+}
+.slider12 .b .Rounded p a.wprt-button13:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: white;
+}
+.slider12 .b .Rounded p a.wprt-button14 {
+  padding: 20.8px 53.4px;
+  border-radius: 30px;
+}
+.slider12 .b .Rounded p a.wprt-button14:hover {
+  background-color: #252525;
+  border-color: #252525;
+  color: white;
+}
+.slider12 .b .Bootstrap-buttons {
+  height: 189px;
+  padding: 0px 15px;
+}
+.slider12 .b .Bootstrap-buttons h3 {
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: #252525;
+}
+.slider12 .b .Bootstrap-buttons p {
+  padding: 20px 0px 0px;
+}
+.slider12 .b .Bootstrap-buttons p a {
+  font-family: "Montserrat";
+  font-weight: 900;
+  padding: 7px;
+  letter-spacing: 2px;
+  transition: all 1s;
+}
+.slider12 .b .Bootstrap-buttons p a.btn1 {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.slider12 .b .Bootstrap-buttons p .btn1:hover {
+  color: #333;
+  background-color: #dfdfdf;
+  border-color: #ccc;
+}
+.slider12 .b .Bootstrap-buttons p a.btn2 {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.slider12 .b .Bootstrap-buttons p .btn2:hover {
+  color: #fff;
+  background-color: #174f80;
+  border-color: #174f80;
+}
+.slider12 .b .Bootstrap-buttons p a.btn3 {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.slider12 .b .Bootstrap-buttons p .btn3:hover {
+  color: #fff;
+  background-color: #2e8a2e;
+  border-color: #2e8a2e;
+}
+.slider12 .b .Bootstrap-buttons p a.btn4 {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.slider12 .b .Bootstrap-buttons p .btn4:hover {
+  color: #fff;
+  background-color: #3391ad;
+  border-color: #3391ad;
+}
+.slider12 .b .Bootstrap-buttons p a.btn5 {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.slider12 .b .Bootstrap-buttons p .btn5:hover {
+  color: #fff;
+  background-color: #ca8d38;
+  border-color: #ca8d38;
+}
+.slider12 .b .Bootstrap-buttons p a.btn6 {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.slider12 .b .Bootstrap-buttons p .btn6:hover {
+  color: #fff;
+  background-color: #a12c28;
+  border-color: #a12c28;
+}/*# sourceMappingURL=krish1.css.map */

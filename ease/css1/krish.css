@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-2 {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-33 {
+  width: 33.33%;
+}
+
+nav {
+  background-color: #252525;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+nav .contect i {
+  color: #ffc925;
+  font-size: 14px;
+  padding-left: 5px;
+}
+nav .contect p {
+  padding-left: 10px;
+  color: white;
+}
+nav .socalias i {
+  padding-left: 10px;
+  color: white;
+}
+
+header {
+  height: 90px;
+  background-color: white;
+}
+header .logo .img {
+  text-align: center;
+}
+header .menu ul li i {
+  right: 0;
+  color: white;
+  padding: 5px;
+}
+header .menu ul li a {
+  padding: 10px;
+  font-size: 13px;
+  color: white;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.slide {
+  height: 151px;
+  background: #f7f7f7;
+}
+.slide .about-tittle h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: #777777;
+  padding: 52px 0px;
+}
+.slide .bard {
+  padding: 52px 0px;
+}
+.slide .bard a {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #ffc925;
+}
+.slide .bard p {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #777777;
+}
+.slide .bard span {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #777777;
+  padding: 0px 4px;
+}
+
+.slider10 {
+  height: 553px;
+}
+.slider10 .rgb {
+  text-align: center;
+  padding-top: 50px;
+}
+.slider10 .rgb .thumb img {
+  width: 353px;
+}
+.slider10 .rgb .service-item {
+  padding: 30px 0px 0px;
+}
+.slider10 .rgb .service-item h3 {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #252525;
+  margin: 0px 0px 12px;
+}
+.slider10 .rgb .service-item p {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #777777;
+  line-height: 1.835;
+}
+
+.slider11 {
+  height: 365px;
+  background-image: url(../img/bg-section-about.jpg);
+}
+.slider11 .hedding {
+  margin: auto;
+  text-align: center;
+  padding-top: 13%;
+}
+.slider11 .hedding h3 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: white;
+  padding: 0px 0px 20px;
+}
+.slider11 .hedding .btn {
+  width: 182px;
+  height: 50px;
+  background-color: #ffc925;
+  font-size: 14px;
+  font-family: "Montserrat";
+  padding: 15px;
+  margin: auto;
+  letter-spacing: 2px;
+  border: 2px solid #ffc925;
+  color: white;
+  font-weight: 900;
+}
+.slider11 .hedding .btn:hover {
+  background-color: #252525;
+  border: 2px solid #252525;
+}/*# sourceMappingURL=krish.css.map */

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-2 {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-33 {
+  width: 33.33%;
+}
+
+.slider13 {
+  height: 648px;
+}
+.slider13 .speacer {
+  text-align: center;
+  margin: auto;
+}
+.slider13 .speacer h2 {
+  font-family: "Montserrat";
+  color: #252525;
+  line-height: 1.5;
+  font-size: 2.142em;
+  padding-top: 70px;
+  font-weight: 900;
+}
+.slider13 .speacer p {
+  font-size: 1.142em;
+  line-height: 1.785em;
+  font-family: "Lato";
+  padding-top: 30px;
+}
+.slider13 .design {
+  padding-top: 20px;
+}
+.slider13 .design .i img {
+  width: 370px;
+  height: 254px;
+}/*# sourceMappingURL=krish2.css.map */

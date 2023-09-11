@@ -1,0 +1,400 @@
+$Montserrat: 'Montserrat';
+$lato: 'Lato';
+$orang: #ffc925;
+$text-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.slider12 {
+    height: 571px;
+
+    .b {
+        padding-top: 70px;
+
+        .normal {
+            height: 189px;
+            padding: 0px 15px;
+
+            h3 {
+                font-size: 26px;
+                font-family: $Montserrat;
+                color: #252525;
+            }
+
+            p {
+                padding: 20px 0px 0px;
+
+                a {
+                    font-family: $Montserrat;
+                    font-weight: 900;
+                    padding: 10px;
+                    letter-spacing: 2px;
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                    transition: all 1s;
+                }
+
+                a.wprt-button1:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: #fff;
+                }
+
+                a.wprt-button2 {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: #fff;
+                }
+
+                a.wprt-button2:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+
+                a.wprt-button3 {
+                    background-color: #888;
+                    border-color: #888;
+                    color: #fff;
+                }
+
+                a.wprt-button3:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+
+                a.wprt-button4 {
+                    background-color: #c7c7c7;
+                    border-color: #c7c7c7;
+                    color: #fff;
+                }
+
+                a.wprt-button4:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+            }
+        }
+
+        .Outline {
+            height: 189px;
+            padding: 0px 15px;
+
+            h3 {
+                font-size: 26px;
+                font-family: $Montserrat;
+                color: #252525;
+            }
+
+            p {
+                padding: 20px 0px 0px;
+
+                a {
+                    font-family: $Montserrat;
+                    font-weight: 900;
+                    padding: 10px;
+                    letter-spacing: 2px;
+                    border: 2px solid $orang;
+                    color: $orang;
+                    transition: all 1s;
+                }
+
+                a.wprt-button5:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+
+                a.wprt-button6 {
+                    border-color: #252525;
+                    color: #252525;
+                }
+
+                a.wprt-button6:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+
+                a.wprt-button7 {
+                    border-color: #888;
+                    color: #888;
+                }
+
+                a.wprt-button7:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+
+                a.wprt-button8 {
+                    border-color: #c7c7c7;
+                    color: #c7c7c7;
+                }
+
+                a.wprt-button8:hover {
+                    background-color: $orang;
+                    border: 2px solid $orang;
+                    color: #fff;
+                }
+            }
+        }
+
+        .Sizes {
+            height: 189px;
+            padding: 0px 15px;
+
+            h3 {
+                font-size: 26px;
+                font-family: $Montserrat;
+                color: #252525;
+            }
+
+            p {
+                padding: 20px 0px 0px;
+
+                a {
+                    font-family: $Montserrat;
+                    font-weight: 900;
+                    padding: 10px;
+                    letter-spacing: 2px;
+                    background-color: $orang;
+                    color: white;
+                    transition: all 1s;
+                }
+
+                a.wprt-button9:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: white;
+                }
+
+                a.wprt-button10 {
+                    padding: 15.8px 29.4px;
+                }
+
+                a.wprt-button10:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: white;
+                }
+
+                a.wprt-button11 {
+                    padding: 20.8px 53.4px;
+                }
+
+                a.wprt-button11:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: white;
+                }
+            }
+        }
+
+        .Rounded {
+            height: 189px;
+            padding: 0px 15px;
+
+            h3 {
+                font-size: 26px;
+                font-family: $Montserrat;
+                color: #252525;
+            }
+
+            p {
+                padding: 20px 0px 0px;
+
+                a {
+                    font-family: $Montserrat;
+                    font-weight: 900;
+                    padding: 10px;
+                    letter-spacing: 2px;
+                    background-color: $orang;
+                    color: white;
+                    transition: all 1s;
+                }
+
+                a.wprt-button12:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: white;
+                }
+
+                a.wprt-button13 {
+                    padding: 15.8px 29.4px;
+                    border-radius: 5px;
+                }
+
+                a.wprt-button13:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: white;
+                }
+
+                a.wprt-button14 {
+                    padding: 20.8px 53.4px;
+                    border-radius: 30px;
+                }
+
+                a.wprt-button14:hover {
+                    background-color: #252525;
+                    border-color: #252525;
+                    color: white;
+                }
+            }
+        }
+
+        .Bootstrap-buttons {
+            height: 189px;
+            padding: 0px 15px;
+
+            h3 {
+                font-size: 26px;
+                font-family: $Montserrat;
+                color: #252525;
+            }
+
+            p {
+                padding: 20px 0px 0px;
+
+                a {
+                    font-family: $Montserrat;
+                    font-weight: 900;
+                    padding: 7px;
+                    letter-spacing: 2px;
+                    transition: all 1s;
+                }
+
+                a.btn1 {
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    color: #333;
+                    background-color: #fff;
+                    border-color: #ccc;
+                }
+
+                .btn1:hover {
+                    color: #333;
+                    background-color: #dfdfdf;
+                    border-color: #ccc;
+                }
+
+                a.btn2 {
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    color: #fff;
+                    background-color: #337ab7;
+                    border-color: #2e6da4;
+                }
+
+                .btn2:hover {
+                    color: #fff;
+                    background-color: #174f80;
+                    border-color: #174f80;
+                }
+
+                a.btn3 {
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    color: #fff;
+                    background-color: #5cb85c;
+                    border-color: #4cae4c;
+                }
+
+                .btn3:hover {
+                    color: #fff;
+                    background-color: #2e8a2e;
+                    border-color: #2e8a2e;
+                }
+
+                a.btn4 {
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    color: #fff;
+                    background-color: #5bc0de;
+                    border-color: #46b8da;
+                }
+
+                .btn4:hover {
+                    color: #fff;
+                    background-color: #3391ad;
+                    border-color: #3391ad;
+                }
+
+                a.btn5 {
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    color: #fff;
+                    background-color: #f0ad4e;
+                    border-color: #eea236;
+                }
+
+                .btn5:hover {
+                    color: #fff;
+                    background-color: #ca8d38;
+                    border-color: #ca8d38;
+                }
+                a.btn6 {
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    color: #fff;
+                    background-color: #d9534f;
+                    border-color: #d43f3a;
+                }
+
+                .btn6:hover {
+                    color: #fff;
+                    background-color: #a12c28;
+                    border-color: #a12c28;
+                }
+            }
+        }
+    }
+}
